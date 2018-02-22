@@ -1,0 +1,148 @@
+  body {
+    background: #f2eccd;
+    color: #000;
+  }
+  
+  h3 {
+    color: #bf4135;
+  }
+  
+  .font-alegreya-sans {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+  }
+  
+  .font-glass-antiqua {
+    font-family: "Glass Antiqua", cursive;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #135f64;
+    cursor: pointer;
+  }
+  
+  .symbol,
+  nav a,
+  footer a {
+    color: #69bf83;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    color: #bf4135;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #bf4135;
+    text-decoration: none;
+  }
+  
+  .symbol {
+    font-size: 2em;
+  }
+  
+  header,
+  footer {
+    background: #000;
+    color: #fff;
+  }
+
+  footer {
+    padding: 5px;
+    font-size: 0.75em;
+  }
+  
+  nav {
+    background: #135f64;
+  }
+  
+  .logo {
+    padding: 15px;
+  }
+  
+  .logo svg {
+    padding: 0;
+  }
+  
+  .work,
+  .posts {
+    padding: 30px;
+  }
+
+  .work {
+	 background: #1c1c1f;
+  }
+
+  .posts {
+	 background: #f2b74b;
+  }
+  
+  .intro {
+    margin-top: 0;
+    margin-bottom: 10px;
+    background: #bf4135;
+    padding: 10px 15px 5px;
+    color: #fff;
+  }
+  
+  .project img {
+    border: 5px solid #d88f36;
+    width: 100%;
+  }
+  
+  .entry h4 {
+    color: #135F64;
+  }
+
+  .entry-header {
+	text-transform: lowercase;
+	font-size: .75em;
+  }
+  
+  @media(min-width: 1500px) {
+    .symbol {
+      font-size: 3em;
+    }
+  }
+  
+  @media(min-width: 720px) {
+    .intro {
+      position: absolute;
+      margin-top: -138px;
+      border-radius: 5px 5px 0 0;
+      opacity: 0.9;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #wpadminbar {
+      position: fixed !important;
+    }
+  }
+  
+  @media(max-width: 575px) {
+    .project img {
+      margin-bottom: 20px;
+    }
+  
+    .project:last-of-type img {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media(max-width: 320px) {
+    .symbol {
+      font-size: 1.5em;
+    }
+  }
+  
+  
