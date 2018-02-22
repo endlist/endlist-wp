@@ -2,6 +2,10 @@
     background: #f2eccd;
     color: #000;
   }
+
+  main img {
+    max-width: 100%;
+  }
   
   h3 {
     color: #bf4135;
